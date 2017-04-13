@@ -1,0 +1,25 @@
+/* Break Points for small devices */
+
+@media only screen and (max-width:767px){
+    .navbar-default{
+        background-color: white !important;
+        border-color:#E6E6E6;
+    }
+    .purchase-btn{
+        padding-bottom:50px;
+
+        text-align:center;
+    }
+}
+
+/* small devises and tablets*/
+@media only screen and (max-width:767px){
+    .header-iphone{
+        display:none;
+    }
+    .header-text ,
+    .header-btn{
+        text-align:center;
+    }
+}
+
